@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: urbanist, sans-serif;
+}
+
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 20px; */
+    width: 1350px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.main-nav{
+    padding-right: 70px;
+    border-right: 1px solid hsla(0, 0%, 77%, .55);
+    padding-right: 70px;
+    height: 90px;
+    padding-top: 33px;
+}
+.logo{
+    display: flex;
+    border-right: 1px solid hsla(0, 0%, 77%, .55);
+    padding-right: 70px;
+    height: 90px;
+}
+.logo img{
+    height: 60px;
+    margin: 14px;
+    margin-right: 0px;
+    padding-left: 40px;
+}
+.logo h2{
+    font-size: 2.4rem;
+    padding-top: 1.2rem;
+    font-weight: 600;
+    
+
+}
+
+
+
+.nav-list{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-list li{
+    list-style: none;
+}
+.nav-list li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+.btn1{
+    padding: 1rem 3rem;
+    border: 1px solid rgba(0, 0, 0, .35);
+    border-radius: 5px;
+    font-size: 1.25rem;
+    margin-right: 3rem;
+    background-color: white;
+}
+.hero{
+    background-image: url(HeroImage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero-content{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1350px;
+}
+.hero h1{
+    font-size: 60px;
+    font-style: italic;
+    color: white;
+    padding-top: 165px;
+    padding-left: 42px;
+    letter-spacing: -2px;
+    line-height: 1.2;
+}
+
+.hero h4{
+    color: white;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-left: 40px;
+    font-weight: 200;
+}
+
+.btn2{
+    margin: 38px;
+    padding: 9px 21px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgb(55 125 255);
+    color: white;
+}
+
+.ex-div{
+    height: 215px;
+}
+
+.section3{
+    padding: 40px 0;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1350px;
+
+}
+
+.sec3-container{
+    display: flex;
+    gap: 95px;
+}
+
+.sec3-text h2{
+    padding-top: 130px;
+    padding-left: 150px;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.sec3-text p{
+    padding-left: 150px;
+    padding-top: 25px;
+    font-size: 1.175rem;
+    line-height: 1.75rem;
+}
+
+.sec3-img{
+    padding-top: 116px;
+}
+
+.btn3{
+    margin-left: 147px;
+    margin-top: 24px;
+    padding: 8px 28px; 
+    border-radius: 6px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgb(55 125 255);
+    color: white;
+}
+
+.ex-div2{
+    width: 65px;
+    height: 5px;
+    background-color: orange;
+    margin-left: 150px;
+    margin-top: 27px;
+}
+
+
+
+.logo-imgs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-top: 110px;
+    gap: 40px
+}
+
+.logo-text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo-text span{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.icon-arr{
+    color: rgb(55 125 255) ;
+    cursor: pointer;
+    height: 21px;
+}
+
+.section4{
+    background-image: url(https://www.stellarstack.co/images/aboutus/aboutusBgimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section4-con{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1350px;
+}
+
+
+.sec4-content{
+    display: flex;
+    gap: 108px;
+}
+
+.sec4-content h3{
+    padding-top: 303px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    padding-left: 133px;
+    color: white;
+}
+
+.sec4-content p{
+    padding-top: 303px;
+    padding-left: 133px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
+}
+
+.ex-div4{
+    width: 85px;
+    height: 10px;
+    background-color: orange;
+    margin-left: 133px;
+}
+
+.ex-div5{
+    padding: 70px 0;
+}
+
+.section5{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1350px;
+}
+
+.card-temp{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+ .card1{
+    background-image: url(swirls.svg);
+    background-repeat: no-repeat;
+    background-color: #1e013a;
+    border: 2px solid #1e013a;
+    background-size: 120%; /* Increase size to 200% of the element's dimensions */
+    background-position: center; /* Ensure the image is centered */
+    height: 560px;
+    width: 520px;
+    border-radius: 35px;
+    
+ }
+
+ .card1 p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: start;
+    color: white;
+    padding: 42px 64px;
+    font-weight: 700;
+ }
+
+ .card1 h1{
+    font-size: 65px;
+    line-height: 1;
+    text-align: start;
+    color: #727272;
+    padding: 0 60px;
+ }
+ .card1 h4{
+    padding-top: 47px;
+    color: white;
+    font-weight: 300;
+    padding: 16px 53px;
+ }
+
+ .sp1{
+    font-size: 65px;
+    line-height: 1;
+    text-align: start;
+    color: white;
+ }
+
+ .card-btn{
+    margin-left: 46px;
+    padding: 8px 36px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgb(55 125 255);
+    color: white;
+}
+
+.card2{
+    background-image: url(bg.svg);
+    background-repeat: no-repeat;
+    border: 2px solid;
+    background-size: 120%; /* Increase size to 200% of the element's dimensions */
+    background-position: center; /* Ensure the image is centered */
+    height: 560px;
+    width: 520px;
+    border-radius: 35px;
+    
+ }
+
+ .card2 p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: start;
+    color: rgb(55 125 255);
+    padding: 42px 64px;
+    font-weight: 900;
+ }
+
+ .card2 h1{
+    font-size: 65px;
+    line-height: 1;
+    text-align: start;
+    color: black;
+    padding: 0 60px;
+ }
+ .card2 h4{
+    padding-top: 47px;
+    color: black;
+    font-weight: 300;
+    padding: 16px 53px;
+ }
+
+ .sp2{
+    font-size: 65px;
+    line-height: 1;
+    text-align: start;
+    color: rgb(55 125 255);
+ }
